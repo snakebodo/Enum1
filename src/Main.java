@@ -11,9 +11,13 @@ public class Main {
         System.out.println(weekday.isWeekDay());
         weekday.whichIsGreater(weekday.MONDAY);*/
 
-        PackageSize packageSize = PackageSize.LARGE;
+        /*PackageSize packageSize = PackageSize.LARGE;
         System.out.println(packageSize);
-        System.out.println(PackageSize.getPackageSize(25,25));
+        System.out.println(PackageSize.getPackageSize(25,25));*/
+
+        TemperatureConvert temperatureConvert = TemperatureConvert.C_K;
+        TemperatureConvert.convertTemperature('c','f', 15);
+        System.out.println(TemperatureConvert.convertTemperature('c','f', 15));
     }
 }
 //printarea se poate face la orice enum atat timp cat este definit
